@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mateus // Portifólio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js" defer></script>
+</head>
+<body>
+
+      <nav>
+        <a href="#Section_1">Inicio</a>
+        <a href="#Section_2">Sobre Mim</a>
+        <a href="#Section_3">Skills</a>
+        <a href="#Section_4">Projetos</a>
+        <a href="#Section_5">Contato</a>
+        <div>
+          <input type="checkbox" id="check" onclick="dark()">
+        </div>
+      </nav>
+
+    <section id="Section_1" class="Section_1">
+      <div class="Moldura_Inicio">
+        <img class="Foto" src="Foto.jpeg" alt="">
+      </div>
+      <div class="Texto_Inicio">Seja Bem-Vindo ao meu Portifólio.
+      Eu sou o Mateus por gentileza aproveite
+      minhas experiencias com a tecnologia 
+      como Dev Back-End
+      </div>
+    </section>
+
+    <section id="Section_2" class="Section_2">
+      <div class="Titulo_Sobre_Mim">Sobre Mim</div>
+      <div class="Programador"><img class="Working" src="working.png" alt=""></div>
+      <div class="Sobre_Mim"> Olá, eu sou o Mateus tenho 16 anos, 
+      estudante do Cotemig apaixonado 
+      em Tecnologia e buscando cada vez mais conhecimento 
+      no curso que me encontro. Estou estudando
+      C#, MySql, HTML, CSS e Javascript.</div>
+    </section>
+
+    <section id="Section_3" class="Section_3">
+      <div class="Titulo_Skills">Skills</div>
+        <div class="Skills_Box">
+          <div class="Html_Box">HTML</div>
+          <div class="Css_Box">CSS</div>
+          <div class="Js_Box">JS</div>
+          <div class="C_Box">C#</div>
+          <div class="MySql_Box">MySql</div>
+        </div>
+    </section>
+
+    <section id="Section_4" class="Section_4">
+      <div class="Titulo_Projetos">Projetos</div>
+      <div class="Texto_Projetos">Meus Projetos estam todos localizados em meu repositório do GitHub</div>
+      <div class="Box_Projetos">
+        <img class="Foto_Git" src="github.png" alt="">
+        <a class="Link_GitHub" href="https://github.com/MateusRicardoRamos">Link GitHub</a>
+      </div>
+    </section>
+
+    <section id="Section_5" class="Section_5">
+      <div class="Titulo_Contato">Contato</div>
+      <div class="Formulario">
+        <form action="">
+          <div class="Label">
+            <label class="Label">Nome:</label>
+            <input placeholder="" type="text" id="Nome" oninput=Mascara_Nome()>
+          </div>
+          <div class="Label">
+            <label>Email:</label>
+            <input placeholder="" type="text" id="Email" oninput=Mascara_Email()>
+          </div>
+          <div class="Label">
+            <label>Assunto:</label>
+            <input placeholder="" type="text" id="Assunto" oninput=Mascara_Assunto()>
+          </div>
+          <div class="Label">
+            <label>Mensagem:</label>
+            <input placeholder="" type="text" id="Mensagem" oninput=Mascara_Mensagem()>
+          </div>
+          <input type="submit" value="Enviar">
+        </form>
+      </div>
+    </section>
+
+    <footer>Mateus Ricardo Ramos // Portifólio</footer>
+
+</body>
+</html>
